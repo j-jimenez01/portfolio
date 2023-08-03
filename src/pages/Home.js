@@ -6,7 +6,7 @@ export default function Home() {
   const [text, setText] = useState('');
 
   useEffect(() => {
-    const name = 'Jose Jimenez';
+    const name = 'Jose Jimenez Software Engineer';
     let currentIndex = 0;
 
     const intervalId = setInterval(() => {
@@ -16,7 +16,7 @@ export default function Home() {
       if (currentIndex === name.length) {
         clearInterval(intervalId);
       }
-    }, 100); // Adjust the interval (in milliseconds) to control typing speed
+    }, 200); // Adjust the interval (in milliseconds) to control typing speed
 
     return () => {
       clearInterval(intervalId);
