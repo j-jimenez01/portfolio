@@ -7,8 +7,9 @@ export default function Navbar() {
         Site Name
       </Link>
       <ul>
-        <CustomLink to="/pricing">Pricing</CustomLink>
         <CustomLink to="/about">About</CustomLink>
+        <CustomLink to="/projects">Projects</CustomLink>
+        <CustomLink to="/resume">Resume</CustomLink>
       </ul>
     </nav>
   )
