@@ -1,3 +1,5 @@
+// back of the J
+
 import './index.scss'
 import LogoJ from '../../../assets/images/J-test2.png'
 import {useEffect, useRef} from 'react'
@@ -21,6 +23,7 @@ const Logo2 = () => {
           .from(outlineLogoRef.current, {
             drawSVG: 0,
             duration: 5,
+            fill:'transparent',
           })
     
         gsap.fromTo(
@@ -52,7 +55,7 @@ const Logo2 = () => {
         <g
           className="svg-container"
           transform="translate(0 457) scale(.1 -.1)"
-          fill="none"
+          fill="#000"
         >
           <path
           ref={outlineLogoRef}
@@ -68,4 +71,6 @@ const Logo2 = () => {
 }
 
 export default Logo2
+
+
 
