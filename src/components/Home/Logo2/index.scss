@@ -1,21 +1,20 @@
-//whole code dont do anything. go to index.scss in logo 2
 .logo-container {
     z-index: 0;
     width: 1000px; /* Make the image twice as wide */
     height: 1537px; /* Make the image twice as high */
     position: absolute;
     top: -85%;
-    right: -35%;
+    right: -30%;
     bottom: 0;
     left: auto;
     margin: auto;
     opacity: 0; //made it disappear incase it dont come back
-
+    
     svg {
         width: 100%;
         height: auto;
         bottom: 0;
-        transform: rotateZ(180deg) scaleX(-1) !important; /* Rotate the image 180 degrees and flip horizontally */
+        transform: rotateZ(185deg) scaleX(-1) !important; /* Rotate the image 180 degrees and flip horizontally */
     }
 
     .solid-logo {
@@ -32,9 +31,9 @@
     }
 }
 
-// line doesn't do anything
+// line for big letter on screen
 .svg-container {
-    stroke: #ffd700;
+    stroke: #fff;
     stroke-width: 10;
 }
 
