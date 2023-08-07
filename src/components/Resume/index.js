@@ -19,7 +19,6 @@ const Resume = () => {
 return (
     <>
         <div className="container about-page">
-        <TextSphere />
         <div className="text-zone">
           <h1>
           
@@ -36,6 +35,7 @@ return (
           </p>
           
           </div>
+          <TextSphere />
 
           
           
