@@ -24,7 +24,7 @@ return (
           
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['R', 'e', 's', 'u', 'm', 'e ',]}
+              strArray={['S', 'k', 'i', 'l', 'l', 's ',]}
               idx={15}
             />
           </h1>
