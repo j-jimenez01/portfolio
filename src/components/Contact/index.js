@@ -45,9 +45,9 @@ const Contact = () => {
                     />
                 </h1>
                 <p>
-                    I am interested in freelance opportunities - especially on ambitious
-                    or large projects. However, if you have any other requests or
-                    questions, don't hesitate to contact me using below form either.
+                Feel free to reach out to me via email at j-jimenez.22@outlook.com or connect with me on <a href='https://www.linkedin.com/in/jose-jimenez01/' style={{ color: 'white' }}>LinkedIn</a>
+                . I'm excited to discuss potential collaborations, projects, 
+                or any opportunities in the field of software engineering.
                 </p>
 
                 <div className='contact-form'>

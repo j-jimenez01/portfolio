@@ -8,7 +8,8 @@ body {
   font-family: 300 11px/1.4 'Helvetica Neue','sans-serif';
   color: #444;
   /* background color */
-  background: #022c43; 
+  /* background: #022c43;  */
+  background: #171717; 
   overflow: hidden;
   display: block;
   -webkit-font-smoothing: antialiased;

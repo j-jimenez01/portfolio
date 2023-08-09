@@ -1,5 +1,5 @@
 .nav-bar {
-    background: #181818;
+    background: #444444;
     width: 70px;
     height: 100%;
     position: absolute;
@@ -28,7 +28,7 @@
         text-align: center;
         position: absolute;
         height: 210px;
-        top: 50%;
+        top: 45%;
         margin-top: -120px;
         width: 100%;
 
@@ -94,6 +94,12 @@
                 content: 'PROJECTS';
             }
         }
+
+        a.pdf-link {
+            &:after {
+                content: 'RESUME';
+            }
+        }
     
         a.contact-link {
             &:after {
@@ -103,7 +109,7 @@
 
         a.active {
             svg {
-                color:#ffff; //the icon color when on
+                color:#ffd700; //the icon color when on
             }
         }
     }
@@ -122,11 +128,11 @@
             a {
                 padding: 7px 0;
                 display: block;
-                font-size: 15px;
+                font-size: 20px;
                 line-height: 16px;
 
                 &:hover svg {
-                    color: #fff;
+                    color: #ffd700;
                 }
             }
         }

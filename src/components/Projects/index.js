@@ -27,11 +27,18 @@ const Projects = () => {
             />
           </h1>
           <p>
-            I'm a very ambitious front-end developer looking for a role in an
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+          wordswordswordswordswordswordswordswordswordswordswordswords
+          wordswordswordswordswordswordswordswordswordswordswordswords
+          wordswordswordswordswordswordswordswordswordswordswordswords
           </p>
         </div>
+        {/* right side of the page */}
+
+
+
+
+
+
         </div>
         <Loader type="pacman" />
         </>
@@ -39,4 +46,5 @@ const Projects = () => {
 }
 
 export default Projects
+
 

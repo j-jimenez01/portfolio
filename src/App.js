@@ -6,6 +6,7 @@ import './App.scss'
 import Contact from './components/Contact'
 import Resume from './components/Resume'
 import Projects from './components/Projects'
+import Pdf from './components/PDF'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="resume" element={<Resume />} />
           <Route path="projects" element={<Projects />} />
+          <Route path="pdf" element={<Pdf />} />
         </Route>
       </Routes>
     </>

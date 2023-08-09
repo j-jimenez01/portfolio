@@ -20,7 +20,9 @@ const TextSphere = () => {
                 "PostgreSQL",
                 "MySQL",
                 "MongoDB",
-                "npm"
+                "npm",
+                "Google Cloud",
+                "AWS",
         ];
 
         const options = {
