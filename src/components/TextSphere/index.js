@@ -6,7 +6,7 @@ const TextSphere = () => {
     useEffect(() => {
         const container = '.tagcloud';
         const texts = [
-            "HTML",
+                "HTML",
                 "CSS",
                 "Python",
                 "JavaScript",
@@ -23,6 +23,9 @@ const TextSphere = () => {
                 "npm",
                 "Google Cloud",
                 "AWS",
+                "CI/CD",
+                "Node.js",
+
         ];
 
         const options = {

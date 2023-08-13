@@ -29,9 +29,11 @@ return (
             />
           </h1>
           <p>
-            I'm a very ambitious front-end developer looking for a role in an
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+          Passionate software engineer with expertise in Java, Python, C++, and JavaScript (including HTML, CSS, React) for web development. Proficient in backend technologies like Node.js for server-side programming. Skilled in databases, with strengths in SQL and MongoDB. Experienced with version control using Git and GitHub for collaborative development.
+                    </p>
+          
+          <p>
+          Adept at applying Agile methodologies and strong problem-solving skills to tackle challenges. Knowledgeable in algorithms, data structures, and test-driven development (TDD). Proven track record in establishing efficient CI/CD pipelines for testing and deployment. Effective communicator and collaborative team player, skilled in task management. Quick to embrace new technologies and challenges.
           </p>
           
           </div>
