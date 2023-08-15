@@ -5,7 +5,6 @@ import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 import Logo from './Logo';
 import Logo2 from './Logo2';
-import Loader from 'react-loaders'
 
 const Home = () => {
     const [letterClass,setLetterClass] = useState('text-animate')
@@ -40,14 +39,14 @@ const Home = () => {
                 strArray={jobArray}
                 idx={22} />
                 </h1>
-                <h2>Software Engineer/ Cybersecurity Engineer/ Co-Founder of BeachEvents</h2>
+                <h2>Software Engineer / CS Student Minoring in Cybersecurity @ CSULB</h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
             <Logo />
             <Logo2 />
             
         </div>
-        <Loader type='pacman' />
+        
         </>
     );
 }

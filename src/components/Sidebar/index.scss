@@ -45,7 +45,7 @@
                 transition: all 0.3s ease-out;
             }
             &:hover {
-                color: #ffff; //the word when hovering over
+                color: #ffff; 
 
                 svg {
                     opacity: 0;
@@ -109,7 +109,7 @@
 
         a.active {
             svg {
-                color:#ffd700; //the icon color when on
+                color:#ffd700; 
             }
         }
     }

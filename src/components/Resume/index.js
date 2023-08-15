@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import TextSphere from '../TextSphere'
-import Loader from 'react-loaders'
 
 const Resume = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -44,7 +43,6 @@ return (
           </div>
 
 
-          <Loader type="pacman" />
     </>
 )
 }

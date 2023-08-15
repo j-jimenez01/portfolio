@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import Loader from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
 import './index.scss';
 import File from '../../assets/images/Jose_Jimenez_Resume.pdf';
@@ -33,7 +32,6 @@ const Pdf = () => {
       </div>
       </div>
       
-      <Loader type="pacman" />
     </>
   );
 };

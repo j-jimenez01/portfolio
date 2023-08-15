@@ -1,59 +1,4 @@
-// import { useEffect, useState } from 'react'
-// import Loader from 'react-loaders'
-// import AnimatedLetters from '../AnimatedLetters'
-// import './index.scss'
-// import React from 'react'
-
-
-// const Projects = () => {
-//     const [letterClass, setLetterClass] = useState('text-animate')
-
-//   useEffect(() => {
-//     const timeoutId = setTimeout(() => {
-//       setLetterClass('text-animate-hover');
-//     }, 3000);
-  
-//     return () => clearTimeout(timeoutId);
-//   }, []);
-//   return (
-//     <>
-//       <div className="container about-page">
-//         <div className="text-zone">
-//           <h1>
-//             <AnimatedLetters
-//               letterClass={letterClass}
-//               strArray={['P', 'r', 'o', 'j', 'e', 'c', 't', 's']}
-//               idx={15}
-//             />
-//           </h1>
-//           <p>
-//           wordswordswordswordswordswordswordswordswordswordswordswords
-//           wordswordswordswordswordswordswordswordswordswordswordswords
-//           wordswordswordswordswordswordswordswordswordswordswordswords
-//           </p>
-//         </div>
-//         {/* right side of the page */}
-
-
-
-
-
-
-//         </div>
-//         <Loader type="pacman" />
-//         </>
-//   )
-// }
-
-// export default Projects
-
-
-
-
-
-
 import React, { useEffect, useState } from 'react';
-import Loader from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
 import './index.scss';
 import BeachEvents from '../../assets/images/BeachEvents.png'
@@ -121,7 +66,7 @@ const Projects = () => {
         </h1>
         <p>
           
-          Through out my <a href='https://github.com/j-jimenez01' style={{ color: 'white' }} alt='github'>Github</a>, you'll discover a collection of projects that highlight my technical prowess and 
+          Through out my <a href='https://github.com/j-jimenez01' target="_blank" rel="noopener noreferrer" style={{ color: 'white' }} alt='github'>Github</a>, you'll discover a collection of projects that highlight my technical expertise and 
           creative problem-solving. From 'BeachEvents,' a mobile app designed to keep CSULB students updated on campus activities, 
           to 'AI TIC TAC TOE,' where I harnessed Alpha-Beta Pruning for an unbeatable game opponent, and my 'Discord Bot' creation 
           that fosters engaging online communities.
@@ -156,7 +101,6 @@ const Projects = () => {
           ))}
         </div>
       </div>
-      <Loader type="pacman" />
     </div>
   );
 };

@@ -1,6 +1,4 @@
 import { useEffect, useRef, useState } from 'react'
-import Loader from 'react-loaders'
-// import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
@@ -46,7 +44,7 @@ const Contact = () => {
                     />
                 </h1>
                 <p>
-                Feel free to reach out to me via email at j-jimenez.22@outlook.com or connect with me on <a href='https://www.linkedin.com/in/jose-jimenez01/' style={{ color: 'white' }}>LinkedIn</a>
+                Feel free to reach out to me via email at j-jimenez.22@outlook.com or connect with me on <a href='https://www.linkedin.com/in/jose-jimenez01/' target="_blank" rel="noopener noreferrer" style={{ color: 'white' }}>LinkedIn</a>
                 . I'm excited to discuss potential collaborations, projects, 
                 or any opportunities in the field of software engineering.
                 </p>
@@ -76,7 +74,6 @@ const Contact = () => {
                 </div>
                 <img src= {Nala} alt='mydog' className='dog'/>
             </div>
-            <Loader type="pacman" />
         </>
     )
 }
