@@ -28,7 +28,7 @@ const Pdf = () => {
           </h1>
           
         </div>
-        <div className="pdf-container">
+        <div className="pdf">
         <iframe src={File} title="PDF Viewer" width="50%" height="650px" />
       </div>
       </div>
