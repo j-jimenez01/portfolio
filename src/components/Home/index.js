@@ -3,8 +3,7 @@ import LogoTitle from '../../assets/images/J-test2.png';
 import './index.scss';
 import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
-import Logo from './Logo';
-import Logo2 from './Logo2';
+import LogoJ from '../../assets/images/J-test2.png'
 
 const Home = () => {
     const [letterClass,setLetterClass] = useState('text-animate')
@@ -42,8 +41,8 @@ const Home = () => {
                 <h2>Software Engineer / CS Student Minoring in Cybersecurity @ CSULB</h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
-            <Logo />
-            <Logo2 />
+
+            <img src={LogoJ} alt='J' className='logoj'/>
             
         </div>
         
