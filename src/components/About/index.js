@@ -31,7 +31,7 @@ const About = () => {
             />
           </h1>
           <p>
-          Hello, I'm Jose Jimenez – a student at California State University, Long Beach, aiming to become a Software Engineer. With a major in Computer Science and a minor in Cyber Security, I'm delving into Full Stack Development.          
+          I'm Jose Jimenez – a student at California State University, Long Beach, aiming to become a Software Engineer. With a major in Computer Science and a minor in Cyber Security, I'm delving into Full Stack Development.          
           
           </p>
           <p align="LEFT">
