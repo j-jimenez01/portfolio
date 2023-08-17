@@ -72,7 +72,7 @@ const Contact = () => {
                     </form>
                 </div>
                 </div>
-                <img src= {Nala} alt='mydog' className='dog'/>
+                {/* <img src= {Nala} alt='mydog' className='dog'/> */}
             </div>
         </>
     )
