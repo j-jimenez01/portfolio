@@ -21,7 +21,19 @@ const ProjectCard = ({ title, description, imageUrl }) => {
 };
 
 const Projects = () => {
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 1000); // Adjust the breakpoint as needed
   const [letterClass, setLetterClass] = useState('text-animate');
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth <= 1000); // Adjust the breakpoint as needed
+        };
+
+        window.addEventListener('resize', handleResize);
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
 
   useEffect(() => {
     const timeoutId = setTimeout(() => {
@@ -77,32 +89,55 @@ const Projects = () => {
            technological solutions.
         </p>
       </div>
-      <div className="project-cards">
-        <div className="row">
-          {projectData.slice(0, 2).map((project, index) => (
-            <div key={index} className="col">
-              <ProjectCard
-                title={project.title}
-                description={project.description}
-                imageUrl={project.imageUrl}
-              />
-            </div>
-          ))}
-        </div>
-        <div className="row">
-          {projectData.slice(2, 4).map((project, index) => (
-            <div key={index} className="col">
-              <ProjectCard
-                title={project.title}
-                description={project.description}
-                imageUrl={project.imageUrl}
-              />
-            </div>
-          ))}
-        </div>
+
+
+
+
+{isMobile ? (
+  <div className="project-cards">
+{projectData.map((project, index) => (
+  <ProjectCard
+    key={index}
+    title={project.title}
+    description={project.description}
+    imageUrl={project.imageUrl}
+  />
+))}
+</div>
+) : (
+  <div className="project-cards">
+  <div className="row">
+    {projectData.slice(0, 2).map((project, index) => (
+      <div key={index} className="col">
+        <ProjectCard
+          title={project.title}
+          description={project.description}
+          imageUrl={project.imageUrl}
+        />
       </div>
+    ))}
+  </div>
+  <div className="row">
+    {projectData.slice(2, 4).map((project, index) => (
+      <div key={index} className="col">
+        <ProjectCard
+          title={project.title}
+          description={project.description}
+          imageUrl={project.imageUrl}
+        />
+      </div>
+    ))}
+  </div>
+  
+
+  
+</div>
+)}
+
+      
     </div>
   );
 };
 
 export default Projects;
+

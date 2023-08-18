@@ -3,10 +3,6 @@
     justify-content: center; /* Center content horizontally */
   }
   
-  .text-zone {
-    /* Your existing styles for the text zone */
-  }
-  
   .project-cards {
     margin-left: 660px; /* Push cards to the right */
     display: flex;
@@ -63,4 +59,62 @@
     font-size: 14px;
     color: #555;
   }
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1300px) {
+  .project-cards {
+    margin-left: 0px; /* Push cards to the right */
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    width: 50%; /* Adjust the width as needed */
+  }
+  .project-card {
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Set a fixed width for project cards */
+    border-radius: 10px; /* Add rounded corners */
+    margin-right: 20px; /* Add some space between project cards */
+}
+
+/* Style for project images */
+.project-image {
+    width: 100px; /* Set a fixed width for the image container */
+    height: 100px; /* Set a fixed height for the image container */
+    margin-right: 10px; /* Add some spacing between image and details */
+    flex-shrink: 0; /* Prevent image from shrinking */
+}
+
+.project-image img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover; /* Make sure the image fits within the container without distortion */
+}
+
+/* Style for project details */
+.project-details {
+    flex: 1; /* Allow details to take up the remaining space */
+}
+
+.project-details h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.project-details p {
+    font-size: 14px;
+    color: #555;
+}
+
+  
+}
   
