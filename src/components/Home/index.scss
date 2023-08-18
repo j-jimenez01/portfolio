@@ -100,7 +100,7 @@
 
 
 // for mobile
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 3000px) {
   .tags,
   .home-page h1:before,
   .home-page h1:after {
@@ -109,7 +109,7 @@
 
   .home-page .text-zone {
     position: initial;
-    width: 60%;
+    width: 100%;
     transform: none;
     padding: 10px;
     box-sizing: border-box;
