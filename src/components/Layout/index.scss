@@ -116,6 +116,8 @@
     }
 }
 
+
+
 @media screen and (max-width: 1300px) {
     .page {
       position: initial;
@@ -126,9 +128,9 @@
       height: auto;
       min-height: auto;
   
-      &.contact-page,
-      &.about-page,
-      &.resume-page,
+    &.contact-page,
+    &.about-page,
+    &.resume-page,
     &.projects-page {
         .text-zone {
           position: initial;
