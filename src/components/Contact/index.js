@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
-// import Nala from '../../assets/images/Nala.JPG'
 
 const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -72,7 +71,6 @@ const Contact = () => {
                     </form>
                 </div>
                 </div>
-                {/* <img src= {Nala} alt='mydog' className='dog'/> */}
             </div>
         </>
     )
