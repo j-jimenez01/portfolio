@@ -46,7 +46,7 @@ const Projects = () => {
   const projectData = [
     {
       title: 'BeachEvents',
-      description: 'A mobile app created for CSULB students to stay informed with club meetings, school events, sports, and everything happening at CSULB.',
+      description: 'Developed a mobile app for CSULB students to stay informed about club meetings, school events, and campus life. Utilized React Native for cross-platform development, Django for the backend, and MongoDB for data storage. Collaborated with a team of developers using Git for version control.',
       imageUrl: BeachEvents,
     },
     {
