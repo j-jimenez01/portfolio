@@ -19,7 +19,8 @@ const Contact = () => {
     e.preventDefault()
 
     // GET RID OF THE STUFF INSIDE HERE BEFORE PUTTING ON GITHUB
-    emailjs.sendForm('service_gsq01xo',"template_zjpvcel",refForm.current,"mvPM810kGmqfsM3rM")
+    // email code ,email template settings,publickey(account)
+    emailjs.sendForm('service_91ln9iw',"template_zjpvcel",refForm.current,"mvPM810kGmqfsM3rM")
     .then(
         () => {
           alert('Message successfully sent!')
