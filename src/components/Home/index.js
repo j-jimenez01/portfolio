@@ -7,7 +7,7 @@ import LogoJ from '../../assets/images/J-test2.png'
 
 const Home = () => {
     const nameArray = ['o', 's', 'e'];
-    const jobArray = ['s', 'o', 'f', 't', 'w', 'a', 'r', 'e', '', 'e', 'n', 'g', 'i', 'n', 'e', 'e', 'r', '.'];
+    const jobArray = ['C', 'y', 'b', 'e', 'r', '', 'S', 'e', 'c', 'u', 'r', 'i', 't', 'y', '', 'e', 'n', 'g', 'i', 'n', 'e', 'e', 'r', '.'];
     const [isMobile, setIsMobile] = useState(window.innerWidth <= 1000); // Adjust the breakpoint as needed
     const [letterClass, setLetterClass] = useState('text-animate');
 
