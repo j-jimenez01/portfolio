@@ -28,7 +28,7 @@ const Pdf = () => {
           
         </div>
         <div className="pdf">
-        <iframe src={File} title="PDF Viewer" width="50%" height="700px" />
+        <iframe src={File} title="PDF Viewer" width="50%" height="750px" />
       </div>
       </div>
       
