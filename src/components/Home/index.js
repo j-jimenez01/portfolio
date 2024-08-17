@@ -47,9 +47,9 @@ const Home = () => {
                 <br />
                 <AnimatedLetters letterClass={letterClass} 
                 strArray={jobArray}
-                idx={22} />
+                idx={29} />
                 </h1>
-                <h2>Software Engineer / CS Student Minoring in Cybersecurity @ CSULB</h2>
+                <h2>Cyber Security Engineer / Computer Science and Cyber Security Graduate</h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
                 </div>
 
