@@ -18,18 +18,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault()
 
-    // GET RID OF THE STUFF INSIDE HERE BEFORE PUTTING ON GITHUB
-    // email code ,email template settings,publickey(account)
-    emailjs.sendForm('service_91ln9iw',"template_zjpvcel",refForm.current,"mvPM810kGmqfsM3rM")
-    .then(
-        () => {
-          alert('Message successfully sent!')
-          window.location.reload(false)
-        },
-        () => {
-          alert('Failed to send the message, please try again')
-        }
-      )
+    // add function here
   }
 
     return (
