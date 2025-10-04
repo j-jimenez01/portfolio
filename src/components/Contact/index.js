@@ -17,8 +17,16 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault()
-
-    // add function here
+    emailjs.sendForm('',"",refForm.current,"") //add email code ,email template settings,publickey(account)
+    .then(
+        () => {
+          alert('Message successfully sent!')
+          window.location.reload(false)
+        },
+        () => {
+          alert('Failed to send the message, please try again')
+        }
+      )
   }
 
     return (
